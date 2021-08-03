@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include<math.h>
+
+int main(void) {
+	int a;
+	scanf("%d",&a);
+	while(a != 0)
+	{
+		double n ;
+		scanf("%lf",&n);
+		printf("%0.0f\n",sqrt(n));
+      a-- ;
+	}
+	return 0;
+}
