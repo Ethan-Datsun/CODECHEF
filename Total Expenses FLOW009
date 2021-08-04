@@ -1,0 +1,20 @@
+#include<stdio.h>
+
+int main()
+{
+int T;
+	double a,b;
+	scanf("%d",&T);
+	while(T--)
+	{
+	    double sum=0;
+	    scanf("%lf %lf",&a,&b);
+	    if(a>=1000)
+	        sum=0.9*a*b;
+	     else
+	        sum=a*b;
+	    
+	    printf("%lf\n",sum);
+	}
+	return 0;
+}
